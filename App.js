@@ -65,7 +65,7 @@ function FetchData() {
                 type="text"
                 placeholder="Enter the item you want add"
               />
-              <Button variant="secondary" type="submit" onClick={addFunction}>
+              <Button variant="primary" type="submit" onClick={addFunction}>
                 Add
               </Button>
             </Form.Group>
@@ -85,7 +85,7 @@ function FetchData() {
                 type="text"
                 placeholder="Enter the item you want delete"
               />
-              <Button variant="primary" type="submit" onClick={deleteFunction}>
+              <Button variant="danger" type="submit" onClick={deleteFunction}>
                 Delete
               </Button>
             </Form.Group>
